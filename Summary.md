@@ -1,0 +1,2 @@
+Problem: The tech industry lacks inclusivity for women in its work environments in the sense that organisations fail to accomodate women on their menstrual cycle and new mothers.
+Solutions: AllyBot, a WhatsApp chatbot by Office Ally that helps women in tech find jobs with the best HR policies and frameworks and help them learn about their labour law options and also help recruiters learn about policy changes they can make in order to rank hire on job searches.

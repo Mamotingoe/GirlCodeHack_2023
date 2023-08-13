@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Ally</title>
+    <link rel="stylesheet" type="text/css" href="landing_page.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Images/logo.png" alt="Logo" align="center" height="400px" width="auto">
+        </div>
+        <div id="sideNav">
+                <nav>
+                   <ul>
+                    <li> <a href="#">HOME</a></li>
+                    <li> <a href="#">KNOW YOUR RIGHTS</a></li>
+                    <li> <a href="#">ABOUT US</a></li>
+                   </ul>
+                </nav>
+            </div>
+            <div id="menuBtn">
+               <img src="Images/menu.png" id="menu">
+            </div>
+    </header>
+
+    <div class="section green-section">
+        <h2 class="section-title">Green</h2>
+        <p class="section-description">Discover exceptional career opportunities exclusively featuring roles from companies with the most inclusive HR policies for women. We're committed to advancing not only your professional path but also fostering an environment where your growth, work-life balance, and aspirations are at the center.</p>
+        <div class="card">
+          <!-- <div class="card-inner">
+            <div class="card-front"> -->
+
+            <!-- </div>
+            <div class="card-back">
+              <p>
+                <ul>
+                  <li>Menstrual Policy</li>
+                  <li>Maternity Policy</li>
+                  <li>Inclusive Bathrooms</li>
+                  <li>Breastfeeding rooms</li>
+                  <li>Child care centers</li>
+                </ul>
+              </p>
+              <button class="info-button" href="https://www.unilever.com/careers/">Apply Now</button>
+            </div>
+          </div> -->
+          <div>
+            <h3>Unilever</h3>
+            <a href="https://www.unilever.com/careers/"><p><img src = "Images/unilever.png"></p></a>
+
+          </div>
+          <div>
+              <h3>Box Fusion</h3>
+              <a href="https://www.boxfusion.co.za/become-a-boxfusioner"><p><img src = "Images/boxfusion.jpg"></p></a>
+          </div>
+          <div>
+              <h3>Chenosis</h3>
+              <p><img src = "Images/download.png"></p>
+          </div>
+          <div>
+              <h3>Nestlé</h3>
+              <p><img src = "Images/nestle.jpeg"></p>
+          </div>
+          <div>
+              <h3>Vumatel</h3>
+              <a href="https://vumatel.co.za/careers"><p><img src = "Images/vumatel.png"></p></a>
+          </div>
+          <div>
+              <h3>Mint</h3>
+              <p><img src = "Images/mint.jpeg"></p>
+          </div>
+      </div>
+        <!-- Repeat cards for a total of 6 -->
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="section orange-section">
+        <h2 class="section-title">Orange</h2>
+        <p class="section-description">Some companies have some moderate HR policies that are inclusive for women.
+          They are not quite there yet, see what job offers they have to offer.
+        </p>
+        <div class="card">
+          <div>
+              <h3>Liberty Holdings</h3>
+              <p><img src = "Images/liberty.jpg"></p>
+          </div>
+          <div>
+              <h3>Woolworths Group</h3>
+              <p><img src = "Images/woolies.png"></p>
+          </div>
+          <div>
+              <h3>Discovery</h3>
+              <p><img src = "Images/discovery.png"></p>
+          </div>
+        <!-- Repeat cards for a total of 3 -->
+    </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="section red-section">
+      <h2 class="section-title">Red</h2>
+      <p class="section-description">Explore job opportunities from workplaces that have been rated as having lower levels of inclusivity for women.
+        While our focus is on presenting potential career paths, we believe in transparency about the workplace environment.
+        Our platform provides insights into these companies, allowing you to make informed decisions about your professional journey amidst varying levels of inclusiveness.</p>
+      <div class="card">
+          <div>
+              <h3>Regus</h3>
+              <p><img src="Images/regus.jpeg"></p>
+          </div>
+          <div>
+              <h3>Glassdoor</h3>
+              <p><img src="Images/glassdoor.png"></p>
+          </div>
+          <div>
+              <h3>Eskom</h3>
+              <p><img src="Images/eskom.jpg"></p>
+          </div>
+      </div>
+      <!-- Repeat cards for a total of 3 -->
+  </div>
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "Images/close.png";
+      }
+      else{
+        sideNav.style.right = "-250px";
+        menu.src = "Images/menu.png";
+      }
+    }
+</script>
+</body>
+</html>
